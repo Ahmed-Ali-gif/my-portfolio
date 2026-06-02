@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBox from './Nav/NavBox'
+import Home from './pages/Home'
+import NavBox from './nav/NavBox'
 
 const Header = () => {
   return (

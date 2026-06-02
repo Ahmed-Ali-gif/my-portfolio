@@ -17,7 +17,7 @@ const NavBar = () => {
         return (
           <li key={indx}>
             <NavLink
-              className={({ isActive }) => `text-[14px] font-semibold py-1 px-2 
+              className={({ isActive }) => `text-[14px] font-semibold transition-all duration-75 px-2 py-2 leading-[100%] 
                 ${isActive ? "text-blue-500 border-b-2" : "hover:text-blue-400"}
                 `}
               to={path}

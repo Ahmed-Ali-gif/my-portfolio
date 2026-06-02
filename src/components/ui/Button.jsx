@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const Button = () => {
+const Button = ({className,title,icon}) => {
   return (
     <>
-    <button className='px-20 py-4 rounded-2xl bg-gradient-to-r from-[#7C3AED] to-[#A855F7] text-white text-lg font-semibold'>Let's Talk</button>
+      <button className={`${className} flex items-center gap-2 rounded-lg`}>
+       {title}
+       {icon}
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
