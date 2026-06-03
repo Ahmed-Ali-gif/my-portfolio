@@ -12,7 +12,7 @@ import Icons from "../ui/Icons";
 
 const HeroText = () => {
   return (
-    <>
+    <div>
       <div className="flex gap-2 text-xs items-center border border-[rgba(255,255,255,0.08)] rounded-2xl px-2 py-1 my-2 w-[16rem]">
         <GoDotFill />
         <span>Frontend Developer</span>
@@ -51,7 +51,7 @@ const HeroText = () => {
         <Icons icon={<FaTwitter />} />
         <Icons icon={<AiFillMessage />} />
       </div>
-    </>
+    </div>
   );
 };
 
