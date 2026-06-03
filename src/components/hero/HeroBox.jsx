@@ -5,7 +5,7 @@ import HeroImg from "./HeroImg";
 const HeroBox = () => {
   return (
     <>
-    <main className="bg-[#0B1120] text-[#FFFF]">
+    <main className="bg-[#0B1120] text-[#FFFF] mt-20">
       <section className="flex justify-between mx-10 mt-3 py-2 ">
         <HeroText />
         <HeroImg />

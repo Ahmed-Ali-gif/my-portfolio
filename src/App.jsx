@@ -42,7 +42,7 @@ const router = createBrowserRouter([{
 }])
 const App = () => {
   return (
-   <div className='bg-[#050816] text-[#FFFF] min-h-screen'>
+   <div className='bg-[#050816] text-[#FFFF] min-h-screen overflow-hidden'>
      <RouterProvider router={router}/>
    </div>
   )

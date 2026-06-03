@@ -5,7 +5,7 @@ const Button = ({className,title,icon}) => {
     <>
       <button className={`${className} flex items-center gap-2 rounded-lg`}>
        {title}
-       {icon}
+       <span className="text-sm">{icon}</span>
       </button>
     </>
   );

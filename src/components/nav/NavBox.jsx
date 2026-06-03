@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 import { BsArrowsAngleExpand } from "react-icons/bs";
 const NavBox = () => {
   return (
-    <div className="flex justify-between items-center py-2 px-10 text-white bg-[#0B1120] ">
+    <div className="flex justify-between items-center py-2 px-10 text-white bg-[#0B1120] fixed top-0 left-0 w-full z-50">
       <Logo />
       <NavBar />
       <Button

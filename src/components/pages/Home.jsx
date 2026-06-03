@@ -6,12 +6,11 @@ import Button from "../ui/Button";
 import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <HeroBox />
       <SkillBox />
       <FeatureContainer />
       {/* Nav direction */}
-     
     </div>
   );
 };
