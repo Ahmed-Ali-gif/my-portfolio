@@ -13,7 +13,6 @@ const FeatureContainer = () => {
         usability
       </p>
       <FeatureBox />
-      
     </div>
   );
 };
