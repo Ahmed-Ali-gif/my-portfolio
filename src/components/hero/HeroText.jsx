@@ -25,7 +25,7 @@ const HeroText = () => {
       </div>
       <div>
         <h1 className="text-[#FFFFFF] font-bold text-7xl tracking-tight leading-[95%] w-[38rem]">
-          I build mordern, high-performance web{" "}
+          I build mordern, high-performance web
           <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
             experiences.
           </span>
