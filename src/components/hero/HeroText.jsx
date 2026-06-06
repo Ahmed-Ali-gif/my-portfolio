@@ -24,13 +24,13 @@ const HeroText = () => {
         <span>React Spacialist</span>
       </div>
       <div>
-        <h1 className="text-[#FFFFFF] font-bold text-7xl tracking-tight leading-[95%] w-[38rem]">
+        <h1 className="text-[#FFFFFF] font-bold text-[clamp(3rem,5vw,4.5rem)] tracking-tight leading-[95%] sm:w-[30rem] lg:w-[38rem]">
           I build mordern, high-performance web
           <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
             experiences.
           </span>
         </h1>
-        <p className=" font-medium text-xl leading-[180%] w-[26.99rem] py-5 text-[#A1A1AA]">
+        <p className=" font-medium text-[(.8rem,2vw,1.8rem)] leading-[180%] sm:w-[21.99rem] md:w-[26.99rem] lg:w-[26.99rem] py-5 text-[#A1A1AA]">
           Frontened developer on React, TailwindCSS, creating responsive
           interfaces with modern UX.
         </p>

@@ -16,7 +16,7 @@ const NavBar = () => {
         {navItems.map((elem, indx) => {
           const { title, path } = elem;
           return (
-            <li key={indx}>
+            <li className=" hidden md:flex lg:flex" key={indx}>
               <NavLink
                 className={({
                   isActive,
