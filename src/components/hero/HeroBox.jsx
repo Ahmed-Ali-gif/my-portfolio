@@ -3,6 +3,7 @@ import HeroText from "./HeroText";
 import HeroImg from "./HeroImg";
 
 const HeroBox = () => {
+  
   return (
     <>
     <main className="bg-[#0B1120] text-[#FFFF] mt-20 ">
