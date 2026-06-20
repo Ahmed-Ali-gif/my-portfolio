@@ -11,6 +11,7 @@ import { FaTwitter } from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
 import { FaLocationArrow } from "react-icons/fa";
 import Icons from "../ui/Icons";
+import { NavLink } from "react-router-dom";
 
 const HeroText = () => {
   return (
@@ -34,25 +35,62 @@ const HeroText = () => {
           Frontened developer on React, TailwindCSS, creating responsive
           interfaces with modern UX.
         </p>
-        {/* button div  */}
         <div className="flex gap-4 items-center">
           <Button
             title="View projects"
             icon={<FaLocationArrow />}
-            className="px-3 py-3 bg-gradient-to-r from-[#7C3AED] to-[#A855F7] text-lg font-semibold leading-[100%]"
+            className="px-3 py-3 bg-gradient-to-r from-[#7C3AED] to-[#A855F7] text-lg font-semibold leading-[100%] hover:border-purple-500
+             transition-all"
+            path="project"
+            view="view project"
           />
-          <Button
-            title="Download CV"
-            icon={<FaDownload />}
+          {/* <NavLink to="/CV.pptx"
+          
+            Download CV
+            download=""
+            icon={}
             className="px-3 py-3 text-lg font-semibold leading-[100%] border-2 border-[rgba(255,255,255,0.08)]"
-          />
+          /> */}
+          <a
+            href="/CV.pptx"
+            download
+            className="
+             inline-flex
+             items-center
+             gap-2
+             px-4
+             py-3
+             text-lg
+             font-semibold
+             border-2
+             border-white/10
+             rounded-lg
+             hover:border-purple-500
+             transition-all
+  "
+          >
+            <FaDownload />
+            Download CV
+          </a>
         </div>
       </div>
       <div className="py-4 flex gap-2 items-center">
-        <Icons icon={<FaGithub />} />
-        <Icons icon={<LuLinkedin />} />
-        <Icons icon={<FaTwitter />} />
-        <Icons icon={<AiFillMessage />} />
+        <Icons
+          title="Github"
+          path="https://github.com/Ahmed-Ali-gif"
+          icon={<FaGithub />}
+        />
+        <Icons
+          title="Linkedin"
+          path="https://www.linkedin.com/in/ahmed-ali-4791423b7?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          icon={<LuLinkedin />}
+        />
+        <Icons
+          title="X"
+          path="https://x.com/SheikhB60668"
+          icon={<FaTwitter />}
+        />
+        <Icons title="Message" path="" icon={<AiFillMessage />} />
       </div>
     </div>
   );

@@ -10,7 +10,6 @@ const Home = () => {
       <HeroBox />
       <SkillBox />
       <FeatureContainer />
-      {/* Nav direction */}
     </div>
   );
 };

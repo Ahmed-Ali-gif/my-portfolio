@@ -1,10 +1,10 @@
 import React from "react";
 import SkillImg from "./SkillImg";
-import html from "../../assets/HTML.png";
+import html from "../../assets/html-file.png";
 import TailwindCSS from "../../assets/TailwindCSS.png";
-import JSImg from "../../assets/JS.png";
+import JSImg from "../../assets/js-file.png";
 import ReactImg from "../../assets/React.png";
-import CSS_pic from "../../assets/CSS-pic.png";
+import CSS_pic from "../../assets/CSS-file.png";
 import git from "../../assets/git-pic.png";
 const SkillBox = () => {
   return (
@@ -14,7 +14,7 @@ const SkillBox = () => {
       </p>
       <div className="flex gap-2 items-center py-2">
         <SkillImg img={html} />
-        <SkillImg className="w-40 block" img={CSS_pic} />
+        <SkillImg className="w-40"img={CSS_pic} />
         <SkillImg img={TailwindCSS} />
         <SkillImg img={JSImg} />
         <SkillImg img={ReactImg} />
